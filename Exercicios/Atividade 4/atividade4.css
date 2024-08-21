@@ -1,0 +1,277 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+main{
+    position:relative;
+    width:60%;
+    height:auto;
+    margin:auto;
+    background-color:salmon;
+}
+
+#cabecalho{
+     width:100%;
+     height:100px;
+     display: flex;
+     flex-direction:row;
+     justify-content:right;
+     background-color:greenyellow;
+     background: url(imgmusica/guitarras_header.jpg) no-repeat;
+     background-size:cover ;
+}
+
+
+#cabecalho a{
+    padding-top: 5px;
+    text-decoration:none;
+    color:white;
+    float:right;
+    width:100px;
+	text-align:center;
+	font-size:15px;
+    padding-top:70px;
+}
+
+#primeiro{
+    position:relative;
+    width:100%;
+    height:300px;
+    background-color:rgb(182, 12, 12);
+    margin-top:10px;
+}
+
+#div1{
+    position:relative;
+    width:40%;
+    height:260px;
+    background-color:#cc8989;
+    margin-top:10px;
+    margin-left:50px;
+    float:left;
+    text-align: center;
+    color:white;
+}
+
+#div2{
+    position:relative;
+    width:40%;
+    height:260px;
+    background-color:rgb(204, 137, 137);
+    margin-top:10px;
+    margin-left:20px;
+    float:left;
+}
+
+#segundo{
+    position:relative;
+    width:100%;
+    height:300px;
+    background-color:aquamarine;
+    margin-top:10px;
+    text-align: center;
+}
+
+h4{
+    color:red;
+}
+#segundo img{
+    width:60px;
+    height:120px;
+    margin-left:10px;
+}
+
+
+#div3{
+    position:relative;
+    width:180px;
+    height:280px;
+    background-color:aliceblue;
+    margin-top:10px;
+    margin-left:50px;
+    border-radius:10px;
+    float:left;
+   
+}
+
+#div4{
+    position:relative;
+    width:180px;
+    height:280px;
+    background-color:aliceblue;
+    margin-top:10px;
+    margin-left:30px;
+    border-radius:10px;
+    float:left;
+}
+
+#div5{
+    position:relative;
+    width:180px;
+    height:280px;
+    background-color:aliceblue;
+    margin-top:10px;
+    margin-left:30px;
+    border-radius:10px;
+    float:left;
+}
+
+#div6{
+    position:relative;
+    width:180px;
+    height:280px;
+    background-color:aliceblue;
+    margin-top:10px;
+    margin-left:30px;
+    border-radius:10px;
+    float:left;
+}
+
+#terceiro{
+    position:relative;
+    width:100%;
+    height:300px;
+    background-color:white;
+    margin-top:10px;
+    justify-content:right;
+    display: flex;
+}
+
+#terceiro img{
+    width:350px;
+    height:200px;
+    padding-right:20px;
+    padding-top:20px;
+   
+}
+
+#quarto{
+    position:relative;
+    width:100%;
+    height:300px;
+    background-color:rgb(165, 87, 42);
+    margin-top:10px;
+}
+
+#div7{
+    position:relative;
+    width:360px;
+    height:280px;
+    background-color:rgb(17, 17, 68);
+    margin-top:10px;
+    margin-left:60px;
+    float:left;
+}
+
+#div8{
+    position:relative;
+    width:360px;
+    height:280px;
+    background-color:rgb(204, 137, 137);
+    margin-top:10px;
+    margin-left:50px;
+    float:left;
+    text-align: center;
+}
+
+#ultima{
+    position:relative;
+    width:100%;
+    height:150px;
+    background-color:black;
+    text-align: center;
+    color:white;
+}
+
+#ultima img{
+    width:50px;
+    height:50px;
+}
+
+
+img{
+    width:100%;
+    height:100%;
+}
+
+
+/*visualização tablet*/
+
+@media only screen and (min-width:481px){
+	@media only screen and (max-width:720px){
+
+#main{
+   width:98%;
+}
+
+#cabecalho a{
+  font-size:12px;
+}
+
+#primeiro{
+  width:100%;
+  height:350px;
+  display:flex;
+  flex-direction: column;
+  flex:wrap;
+}
+
+#div1{
+    width:85%;
+    font-size:20px;
+    text-align: center;
+    height: auto;
+    margin-left:22px;
+}
+
+#div2{
+    width:85%;
+    font-size:20px;
+    height: auto;
+}
+
+#segundo{
+    width:100%;
+    height:350px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font-size:8px;
+}
+
+#div3, #div4, #div5, #div6{
+      width:30%;
+      height:47%;
+}
+#div5, #div6{
+      margin-left:42px;
+ }
+
+ #quarto{
+    width:100%;
+    height:350px;
+    display:flex;
+    flex-direction: column;
+    flex:wrap;
+ }
+  
+ #div7{
+    width:85%;
+    font-size:20px;
+    text-align: center;
+    height: auto;
+    margin-left:22px;
+ }
+ #div8{
+    width:85%;
+    font-size:20px;
+    height: auto;
+    margin-top:22px;
+    margin-left:22px;
+}
+
+}
+
+}

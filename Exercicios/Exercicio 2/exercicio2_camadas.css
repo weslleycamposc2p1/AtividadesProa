@@ -1,0 +1,76 @@
+#cabecalho{
+   background-color:yellowgreen;
+   width:900px;
+   height:60px;
+   text-align:center;
+}
+#lado_esquerdo{
+  position:relative;
+  background-color:aqua;
+  width:200px;
+  height:400px;
+  float:left;
+}
+
+#esquerdo{
+   position:absolute;
+   top:10px;
+   left:15px;
+   width:170px;
+   height:170px;
+   background-color:white;
+   z-index:2;
+}
+
+#baixo{
+   position: absolute;
+   top:200px;
+   left:15px;
+   background-color:white;
+   width: 170px;
+   height:170px;
+   z-index:3;
+}
+
+#lado_direito{
+   position:relative;
+   float:left;
+   width:700px;
+   height:400px;
+   background-color:blueviolet;
+}
+#article>p{
+   position:absolute;
+   top:64px;
+   left:10px;
+   background-color:coral;
+   width:670px;
+   height:100px;
+}
+
+#rodape{
+   position:relative;
+   background-color:maroon;
+   width:900px;
+   height:100px;
+   clear:both;
+}
+
+#article{
+    position:absolute;
+    left:10px;
+    top:30px;
+    width:680;
+    height:370px;
+    text-align:center;
+}
+#article>h1{
+  background-color: aquamarine;
+}
+
+#imagem{
+    position: absolute;
+    background-color:darkslategrey;
+
+
+}

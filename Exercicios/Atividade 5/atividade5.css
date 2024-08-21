@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+ margin:0px;
+ padding:0px;
+}
+
+body{
+background-color: #C5DBF2;
+
+
+}
+
+#sidebar{
+    position: relative;
+    background-color: #C5DBF2;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding:1%;
+}
+
+.link{
+    text-decoration:none;
+    color:black;
+}
+
+#sidebar img{
+    margin-inline-start:14%;
+}
+
+
+.hyper{
+   border:2px solid rgb(0, 124, 134);
+   background-color: #007c86;
+   color:aliceblue;
+   padding:0.7%;
+   text-align: center;
+   text-decoration:none;
+}
+
+.hyper1{
+    border:2px solid black;
+    color:black;
+    text-decoration:none;
+    padding:0.7%;
+}
+
+#principal{
+      display:flex;
+      justify-content: center;
+      gap: 60px;
+}
+
+.conteudo #text{
+  font-size:22px;
+  display:flex;
+  flex-direction: column;
+  margin-top: 200px;
+  gap:30px;
+}
+
+h2{
+    font-family: "Playfair Display", serif;
+
+
+}
+
+
+#botao{
+  width:100px;
+  height:50px;
+  background-color: #007c86;
+  color:white;
+
+}
+
+#segundo{
+    margin-top:10%;
+    margin-right:5%;
+    border:2px solid black;
+    border-radius:10px;
+    width: 450px;
+    height: 350px;
+    background-color:#f6d5c4;
+}
+
+.partedentro{
+   display:flex;
+   height:20px;
+   justify-content: space-between;
+   margin:5px 10px;
+}
+
+h4{
+    text-align: center;
+    color:#f08162;
+    font-size: 30px;
+}
+
+.foto{
+    display:flex;
+    gap:50px;
+}
+
+#imagem{
+    position: relative;
+    background-image: url(imgmusica/6WhatsApp\ Image\ 2024-08-16\ at\ 12.31.46.jpeg);
+    width:15vw;
+    background-repeat: no-repeat;
+    height:25vh;
+    margin-left:50px;
+    margin-top:80px;
+
+}
+
+.cart{
+    position:absolute;
+    background-color:white;
+    width:15vw;
+    height:30vh;
+    left:76vw;
+    top:55vh;
+    border:2px solid black;
+    border-radius:12px;
+    box-shadow:9px 7px black;
+}
+
+.cart p{
+    background-color: #cecccc;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+    font-size:20px;
+    height:4vh;
+    border-bottom:2px solid black;
+    display: flex;
+    padding-left:10px;
+    padding-top:4px;
+}
+
+.cart img{
+     height:130px;
+     margin-top:10px;
+     padding-left:10px;
+}
+
+.cart button{
+      width:9vw;
+      font-size:13px;
+      border:2px solid;
+      border-radius:10px;
+      height:25px;
+      margin-left:50px;
+      background-color: #007c86;
+      color:white;
+}
+
+
+
+
+
+
+
+
+/*.pontos3{
+    position: relative;
+    margin-top:-53px;
+    left:-40px;
+    padding:10px;
+    width:30px;
+    height:20px;
+}*/
