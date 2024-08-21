@@ -1,0 +1,21 @@
+header{
+    width:100%;
+    height:70px;
+    background-color: black;
+}
+
+#logo{
+   width:150px;
+   height:60px;
+   padding-left:50px;
+}
+
+nav{
+   position:relative;
+   width:50%;
+   display:flex;
+   flex-direction: row;
+   color:white;
+   justify-content: space-between;
+   padding-top:5px;
+}
