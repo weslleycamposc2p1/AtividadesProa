@@ -142,3 +142,69 @@ button{
     padding-bottom:-15px;
 }
 
+#div3{
+    position: absolute;
+    width:250px;
+    height:150px;
+    background:url(img_netflix/The-Umbrella-Academy-1.jpg);
+    background-size: cover;
+    top:105%;
+    top:105%;
+    left:20px;
+    float:left;
+}
+
+#div4{
+    position: absolute;
+    width:250px;
+    height:150px;
+    background:url(img_netflix/Breaking-Bad.jpg);
+    background-size:cover;
+    top:105%;
+    left:290px;
+    float:left;
+}
+
+#div5{
+    position: absolute;
+    width:250px;
+    height:150px;
+    background:url(img_netflix/the\ walking\ dead.webp);
+    background-size:cover;
+    top:105%;
+    left:560px;
+    float:left;
+}
+
+#div6{
+    position: absolute;
+    width:250px;
+    height:150px;
+    background:url(img_netflix/orange-is-the-new-black-poster.jpg);
+    background-size:cover;
+    top:105%;
+    left:830px;
+    float:left;
+}
+
+#div7{
+    position: absolute;
+    width:250px;
+    height:150px;
+    background:url(img_netflix/one_piece.jpg);
+    background-size:cover;
+    top:105%;
+    left:1100px;
+    float:left;
+}
+
+#div8{
+    position: absolute;
+    width:250px;
+    height:150px;
+    background:url(img_netflix/jornadas-pokemon-capa.jpg);
+    background-size:cover;
+    top:105%;
+    left:1370px;
+    float:left;
+}
