@@ -152,6 +152,7 @@ button{
     top:105%;
     left:20px;
     float:left;
+    transition:1s;
 }
 
 #div4{
@@ -163,6 +164,7 @@ button{
     top:105%;
     left:290px;
     float:left;
+    transition:1s;
 }
 
 #div5{
@@ -174,6 +176,7 @@ button{
     top:105%;
     left:560px;
     float:left;
+    transition:1s;
 }
 
 #div6{
@@ -185,6 +188,7 @@ button{
     top:105%;
     left:830px;
     float:left;
+    transition:1s;
 }
 
 #div7{
@@ -196,6 +200,7 @@ button{
     top:105%;
     left:1100px;
     float:left;
+    transition:1s;
 }
 
 #div8{
@@ -207,4 +212,35 @@ button{
     top:105%;
     left:1370px;
     float:left;
+    transition:1s;
+}
+
+#div3:hover{
+    transform:translate(0px,-50px);
+    transition:1s;
+}
+
+#div4:hover{
+    transform:translate(0px,-50px);
+    transition:1s;
+}
+
+#div5:hover{
+    transform:translate(0px,-50px);
+    transition:1s;
+}
+
+#div6:hover{
+    transform:translate(0px,-50px);
+    transition:1s;
+}
+
+#div7:hover{
+    transform:translate(0px,-50px);
+    transition:1s;
+}
+
+#div8:hover{
+    transform:translate(0px,-50px);
+    transition:1s;
 }
