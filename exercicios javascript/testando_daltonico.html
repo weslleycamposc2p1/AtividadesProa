@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando cor daltonica e tema escuro</title>
+
+    <style>
+        body{
+          background-color: aliceblue;
+          color: brown;
+          text-align: center;
+        }
+  
+        .myImage{
+          width:500px;
+          height:380px;
+          margin:auto;
+        }
+      </style>
+</head>
+<body class="fundo">
+    <h1 id="titulo">Testando o tema escuro e o modo daltonico</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquid omnis esse error officia tempore eius, quo odio necessitatibus minima sed numquam doloremque, ipsum maiores ratione voluptatem ex iure animi!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum similique in deserunt, suscipit incidunt maxime illo doloribus velit aut itaque officia sed a blanditiis natus eius quos impedit quaerat nisi!
+    </p>
+
+    <input type="button" id="escuro" value="tema escuro" onclick="escuro()"/>
+    <input type="button" id="daltonico" value="tema daltonico" onclick="daltonico()"/>
+    <input type="button" id="normal" value="tema normal" onclick="normal()"/>
+    <input type="button" id="acessibilidade" value="A+" onclick="acessibilidade()"/>
+
+    <hr/>
+
+    <img src="../imgfilmes/De volta Para o Futuro.jpg" class="myImage"/>
+
+    <script>
+
+        let header = document.getElementById("titulo");
+
+
+         function escuro(){
+            document.querySelector(".fundo").style.fontSize="20px";
+            document.querySelector(".fundo").style.backgroundColor="black";
+            document.querySelector(".fundo").style.color="white";
+            document.querySelector(".myImage").src="../imgfilmes/De volta Para o Futuro.jpg";
+            header.innerHTML="Modo Escuro";
+            document.querySelector("#titulo").style.color="grey"
+        }
+        function daltonico(){
+            document.querySelector(".fundo").style.fontSize="20px";
+            document.querySelector(".fundo").style.backgroundColor="#DF00FF";
+            document.querySelector(".fundo").style.color="#c1f602";
+            document.querySelector(".myImage").src="../imgfilmes/De volta Para o Futuro.jpg";
+            header.innerHTML="Modo Daltonico";
+            document.querySelector("#titulo").style.color="yellow"
+        }
+        function normal(){
+            document.querySelector(".fundo").style.fontSize="20px";
+            document.querySelector(".fundo").style.backgroundColor="aliceblue";
+            document.querySelector(".fundo").style.color="brown";
+            document.querySelector(".myImage").src="../imgfilmes/De volta Para o Futuro.jpg";
+            header.innerHTML="Modo Normal";
+            document.querySelector("#titulo").style.color="black"
+        }
+        function acessibilidade(){
+            document.querySelector(".fundo").style.backgroundColor="aliceblue";
+            document.querySelector(".fundo").style.color="brown";
+            document.querySelector(".myImage").src="../imgfilmes/De volta Para o Futuro.jpg";
+            document.querySelector(".fundo").style.fontSize="30px";
+            header.innerHTML="Modo Acessibilidade";
+            document.querySelector("#titulo").style.color="black"
+        }
+        
+
+    </script>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit molestiae maxime odio praesentium sequi, sed ipsum asperiores tempora nemo eaque fugit cupiditate eligendi voluptatibus quisquam facilis optio velit quis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim eveniet, eius sapiente quisquam adipisci officiis, ea laudantium deleniti odio illo ratione iusto reiciendis maiores aperiam quidem molestiae consequatur praesentium.
+    </p>
+
+</body>
+</html>

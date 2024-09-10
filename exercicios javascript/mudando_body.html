@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando troca de conteúdo no javascript</title>
+
+    <style>
+      body{
+        background-color: rgb(72, 24, 150);
+        color: white;
+        text-align: center;
+      }
+
+      .myImage{
+        width:500px;
+        height:380px;
+        margin:auto;
+      }
+    </style>
+</head>
+<body class="fundo">
+    <h1>Testando mudança de cor de fundo Body, a cor da fonte e a imagens na página</h1>
+
+        <input type="button" id="verde" value="cor verde" onclick="verde()"/>
+        <input type="button" id="azul" value="cor azul" onclick="azul()"/>
+        <input type="button" id="azul" value="cor roxo" onclick="roxo()"/>
+
+        <hr />
+
+
+        <img src="../imagens/giphy.gif" class="myImage"/>
+
+
+    <script>
+        function verde(){
+            document.querySelector(".fundo").style.backgroundColor="#dae034";
+            document.querySelector(".fundo").style.color="white";
+            document.querySelector(".myImage").src="../imagens/OIP.jpg";
+        }
+
+        function azul(){
+            document.querySelector(".fundo").style.backgroundColor="#a6cbe8";
+            document.querySelector(".fundo").style.color="yellow";
+            document.querySelector(".myImage").src="../imagens/OIP (2).jpg";
+        }
+
+        function roxo(){
+            document.querySelector(".fundo").style.backgroundColor="rgb(72, 24, 150)";
+            document.querySelector(".fundo").style.color="white";
+            document.querySelector(".myImage").src="../imagens/giphy.gif";
+        }
+
+    </script>
+</body>
+</html>
