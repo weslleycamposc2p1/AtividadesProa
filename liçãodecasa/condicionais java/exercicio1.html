@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 1</title>
+</head>
+<body>
+    <h1>Combos</h1>
+
+    <script>
+        let prato = parseInt(prompt("Escolha o seu prato \n1 Vegetariano-180cal, \n2 Peixe-230cal, \n3 Frango-250cal, \n4 Carne-350cal"))
+        let cal1 = 0
+
+        switch(prato){
+            case 1: document.write("Vegetariano,")
+            cal1 = 180
+            break
+            case 2: document.write("Peixe,")
+            cal1 = 230
+            break
+            case 3: document.write("Frango,")
+            cal1 = 250
+            break
+            case 4: document.write("Carne,")
+            cal1 = 350
+            break
+        }
+
+        let sobremesa = parseInt(prompt("Escolha o sua sobremesa \n1 Abacaxi-75cal, \n2 Sorvete diet-110cal, \n3 Mouse diet-170cal, \n4 Mouse de Chocolate-200cal"))
+        let cal2 = 0
+        switch(sobremesa){
+            case 1: document.write(" Abacaxi,")
+            cal2 = 75
+            break
+            case 2: document.write(" Sorvete diet,")
+            cal2 = 110 
+            break
+            case 3: document.write(" Mouse diet,")
+            cal2 = 170
+            break
+            case 4: document.write(" Mousse chocolate,")
+            cal2 = 200
+            break
+        }
+
+        let bebida = parseInt(prompt("Escolha o sua bebida \n1 Chá-20cal, \n2 Suco de maracuja-70cal, \n3 Suco de melão-100cal, \n4 Refrigerante diet-65cal"))
+        let cal3 = 0
+        switch(bebida){
+            case 1: document.write("Chá")
+            cal3 = 20
+            break
+            case 2: document.write("Suco de maracuja")
+            cal3 = 70
+            break
+            case 3: document.write("Suco de melão")
+            cal3 = 100
+            break
+            case 4: document.write("Refrigerante diet")
+            cal3 = 65
+            break
+        }
+
+        let soma = (cal1 + cal2 + cal3)
+        document.write("<br>Total de calorias " + soma)
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voto Obrigatório</title>
+</head>
+<body>
+    <h1>Votação</h1>
+
+    <script>
+        let idade = parseInt(prompt("Digite sua idade"))
+
+        if(idade<16){
+            document.write("Não vota")
+        }else if(idade>=18 && idade <68){
+            document.write("Voto Obrigatório")
+        }else if(idade<70){
+            document.write("Voto Opcional")
+        }
+    </script>
+
+</body>
+</html>
