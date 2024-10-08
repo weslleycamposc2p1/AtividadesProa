@@ -19,7 +19,7 @@ function Rodape(){
                 <img src={whats} alt="whats" />
             </div>
 
-            <h3>telefone de contact - (11)4002-8922</h3>
+            <h3>telefone de contact - (11) 4002-8922</h3>
         </footer>
 
     )
