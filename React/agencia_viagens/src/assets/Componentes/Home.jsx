@@ -9,7 +9,7 @@ function Home(){
 
             <div className={styles.texto_lado}>
                 <h1>Encontre aqui a sua pior viagem possível!</h1>
-                <p>Está pronto para a pior aventura que poderia ir? nós transformamos suas ideias em experiências horriveis! Desde destinos ruins até as top de bala mais feias, oferecemos pacotes personalizados que se adequam a sua péssima viagem e orçamento super caros.Com atendimento especializado em piorar ainda mais sua viagem e dicas piores ainda, garantimos que cada viagem seja única, temos certeza que você nunca irá esquece-la. Explore, reclame e aproveite o pior da vida! Entre em contato e comece a planejar sua próxima aventura hoje mesmo</p>
+                <p>Silvio Santos Ipsum O prêmio é em barras de ouro, que vale mais que dinheiroam. Eu só acreditoammmm.... Vendoammmm. Mah você não consegue né Moisés? Você não consegueam. Eu não queria perguntar isso publicamente, ma vou perguntar. Carla, você tem o ensino fundamentauam? Mah roda a roduamm. Ma você está certo dissoam? Estamos em ritmo de festamm.</p>
             </div>
         </section>
 
