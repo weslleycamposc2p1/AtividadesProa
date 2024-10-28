@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoWhile 7</title>
+</head>
+
+<body>
+    <h3>Numeros Primos</h3>
+
+    <script>
+
+        let numero = parseFloat(prompt("entre com um numero"))
+        let resultado = 0
+        let cont = 2
+
+        do {
+            resultado = numero % cont
+            if (resultado == 0) {
+                document.write("esse numero não é Primo")
+                break;
+            }
+            else if (cont == (numero - 1)) {
+                if (resultado !== 0) {
+                    document.write("esse numero é Primo")
+                }
+            }
+            cont++
+        }while (cont < numero) 
+
+    </script>
+</body>
+
+</html>
