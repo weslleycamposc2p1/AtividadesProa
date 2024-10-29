@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While 11</title>
+</head>
+<body>
+    <h3>Numeros pares</h3>
+
+    <script>
+
+        let numero = parseFloat(prompt("entre com um numero"))
+        let resultado = 0
+        let soma = 0
+
+        for(let cont = 2;cont<=numero;cont ++ ){
+
+            if(cont%2==0){
+                soma = cont + soma
+                document.write("Soma dos pares " + soma + "<br/>")
+            }
+            
+        }
+    </script>
+</body>
+</html>
