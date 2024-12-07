@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 2</title>
+</head>
+<body>
+    
+
+    <script>
+
+let matriz = [[], []];
+        let soma = 0;
+
+        document.write("Digite os números para a matriz 2x2:<br>");
+
+        for (let n = 0; n < 2; n++) {
+            for (let p = 0; p < 2; p++) {
+                let numero = parseInt(prompt(`Digite um número para a posição [${n}][${p}]:`), 10);
+                matriz[n][p] = numero;
+                soma += numero;
+            }
+        }
+
+        document.write("<br><strong>Matriz 2x2:</strong><br>");
+        for (let n = 0; n < 2; n++) {
+            for (let p = 0; p < 2; p++) {
+                document.write(matriz[n][p] + "\t");
+            }
+            document.write("<br>");
+        }
+
+        document.write("<br><strong>Soma dos elementos:</strong> " + soma + "<br>");
+
+
+    </script>
+</body>
+</html>

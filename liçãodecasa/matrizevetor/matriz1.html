@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 1</title>
+</head>
+<body>
+    
+<script>
+
+let matriz = [[], [], []];
+
+        document.write("Digite os números para a matriz 3x3:<br>");
+
+        for (let n = 0; n < 3; n++) {
+            for (let p = 0; p < 3; p++) {
+                let numero = parseInt(prompt(`Digite um número para a posição [${n}][${p}]:`), 10);
+                matriz[n][p] = numero;
+            }
+        }
+
+        document.write("<br><strong>Matriz 3x3:</strong><br>");
+
+        for (let n = 0; n < 3; n++) {
+            for (let p = 0; p < 3; p++) {
+                document.write(matriz[n][p] + "\t");
+            }
+            document.write("<br>");
+        }
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

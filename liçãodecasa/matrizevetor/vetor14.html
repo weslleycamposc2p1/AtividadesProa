@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor 14</title>
+</head>
+<body>
+    
+<script>
+
+let lista = [];
+
+        for (let n = 0; n < 7; n++) {
+            const numero = parseInt(prompt("Digite um número: "), 10);
+            lista.push(numero);
+        }
+
+        document.write("<h3>Números pares:</h3>");
+        lista.forEach((p) => {
+            if (p % 2 === 0) {
+                document.write(p + " Número par<br>");
+            }
+        });
+
+        document.write("<h3>Lista completa:</h3>");
+        document.write(lista.join(", ") + "<br>");
+
+
+    
+</script>
+
+
+
+</body>
+</html>

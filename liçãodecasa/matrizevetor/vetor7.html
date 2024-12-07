@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor 7</title>
+</head>
+<body>
+    
+<script>
+
+const lista = [];
+        let cont = 0;
+
+        for (let n = 0; n < 10; n++) {
+            const numero = parseInt(prompt("Digite um número: "), 10);
+            lista.push(numero);
+        }
+
+        lista.forEach((numero) => {
+            if (numero > 0) {
+                cont++;
+            }
+        });
+
+        document.write("<h3>Resultado:</h3>");
+        document.write(cont + " número(s) positivo(s)<br>");
+
+
+</script>
+
+
+</body>
+</html>

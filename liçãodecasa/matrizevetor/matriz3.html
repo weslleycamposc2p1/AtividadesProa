@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 3</title>
+</head>
+<body>
+    
+
+    <script>
+
+    let matriz = [[], [], []];
+        let soma = 0;
+
+        document.write("Digite os números para a matriz 3x3:<br>");
+
+        for (let n = 0; n < 3; n++) {
+            for (let p = 0; p < 3; p++) {
+                let numero = parseInt(prompt(`Digite um número para a posição [${n}][${p}]:`), 10);
+                matriz[n][p] = numero;
+            }
+        }
+
+        for (let n = 0; n < 3; n++) {
+            soma += matriz[n][n];
+        }
+
+        document.write("<br><strong>Soma dos elementos da diagonal principal:</strong> " + soma + "<br>");
+
+
+    </script>
+</body>
+</html>

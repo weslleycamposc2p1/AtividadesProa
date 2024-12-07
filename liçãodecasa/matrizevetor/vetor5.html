@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor 5</title>
+</head>
+<body>
+    
+<script>
+
+const lista = [];
+        let maior, menor;
+
+        for (let n = 0; n < 5; n++) {
+            const numero = parseInt(prompt("Digite um número: "), 10);
+            lista.push(numero);
+
+            if (n === 0) {
+                maior = menor = numero;
+            }
+        }
+
+        lista.forEach((numero) => {
+            if (numero > maior) {
+                maior = numero;
+            } else if (numero < menor) {
+                menor = numero;
+            }
+        });
+
+        document.write("O menor número é: " + menor + "<br>");
+        document.write("O maior número é: " + maior + "<br>");
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

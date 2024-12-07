@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor 3</title>
+</head>
+<body>
+    
+    <script>
+
+    const lista = [];
+            let soma = 0;
+
+            for (let n = 0; n < 7; n++) {
+                const numero = parseInt(prompt("Digite um número: "), 10);
+                soma += numero;
+                lista.push(numero);
+            }
+
+            const media = soma / 7;
+
+            document.write("A média dos números digitados é: " + media.toFixed(2));
+            
+    </script>
+</body>
+</html>

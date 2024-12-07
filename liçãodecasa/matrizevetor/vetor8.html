@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor 8</title>
+</head>
+<body>
+    
+<script>
+
+const lista = [];
+        let par = 0;
+        let impar = 0;
+
+        for (let n = 0; n < 5; n++) {
+            const numero = parseInt(prompt("Digite um número: "), 10);
+            lista.push(numero);
+        }
+
+        lista.forEach((numero) => {
+            if (numero % 2 === 0) {
+                par++;
+            } else {
+                impar++;
+            }
+        });
+
+        document.write("<h3>Resultados:</h3>");
+        document.write(par + " número(s) par(es)<br>");
+        document.write(impar + " número(s) ímpar(es)<br>");
+
+
+
+</script>
+
+
+</body>
+</html>

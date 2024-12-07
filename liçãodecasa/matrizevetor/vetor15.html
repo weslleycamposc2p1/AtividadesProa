@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor15</title>
+</head>
+<body>
+    
+<script>
+
+let lista = [];
+
+        for (let n = 0; n < 5; n++) {
+            const nome = prompt("Digite um nome: ");
+            lista.push(nome);
+        }
+
+        document.write("<h3>Lista antes da ordenação:</h3>");
+        document.write(lista.join(", ") + "<br>");
+
+        lista.sort();
+
+        document.write("<h3>Lista ordenada:</h3>");
+        document.write(lista.join(", "));
+
+
+
+</script>
+
+
+</body>
+</html>

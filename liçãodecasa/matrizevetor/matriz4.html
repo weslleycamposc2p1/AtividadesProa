@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 4</title>
+</head>
+<body>
+    
+    <script>
+
+let matriz = [[], []];
+        let matriz2 = [[], []];
+        let soma = [[], []];
+
+        document.write("Digite os números para a primeira matriz 2x2:<br>");
+
+        for (let n = 0; n < 2; n++) {
+            for (let p = 0; p < 2; p++) {
+                let numero = parseInt(prompt(`Digite um número para a posição [${n}][${p}] da primeira matriz:`), 10);
+                matriz[n][p] = numero;
+            }
+        }
+
+        document.write("<br>Digite os números para a segunda matriz 2x2:<br>");
+
+        for (let n = 0; n < 2; n++) {
+            for (let p = 0; p < 2; p++) {
+                let numero = parseInt(prompt(`Digite um número para a posição [${n}][${p}] da segunda matriz:`), 10);
+                matriz2[n][p] = numero;
+            }
+        }
+
+        for (let n = 0; n < 2; n++) {
+            for (let p = 0; p < 2; p++) {
+                soma[n][p] = matriz[n][p] + matriz2[n][p];
+            }
+        }
+
+        document.write("<br><strong>Soma das matrizes:</strong><br>");
+
+        for (let n = 0; n < 2; n++) {
+            for (let p = 0; p < 2; p++) {
+                document.write(soma[n][p] + "\t");
+            }
+            document.write("<br>");
+        }
+
+
+
+    </script>
+</body>
+</html>

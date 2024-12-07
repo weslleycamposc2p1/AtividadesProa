@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor 13</title>
+</head>
+<body>
+    
+
+<script>
+
+    let lista = [];
+        let cont = 0;
+
+        for (let n = 0; n < 5; n++) {
+            const numero = parseInt(prompt("Digite um número: "), 10);
+            lista.push(numero);
+        }
+
+        lista.forEach((n1) => {
+            if (n1 > 10 && n1 < 50) {
+                cont++;
+            }
+        });
+
+        document.write("<h3>Resultado:</h3>");
+        document.write(cont + " números entre 10 e 50<br>");
+
+
+
+</script>
+
+
+</body>
+</html>

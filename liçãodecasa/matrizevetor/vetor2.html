@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetor 2</title>
+</head>
+<body>
+    
+
+    <script>
+
+        const lista = [];
+                let resultado = 0;
+
+                for (let n = 0; n < 10; n++) {
+                    const numero = parseInt(prompt("Digite um número: "), 10);
+                    lista.push(numero);
+                }
+
+                for (const numero of lista) {
+                    resultado += numero;
+                }
+
+                document.write("A soma dos números digitados é: " + resultado);
+
+
+    </script>
+</body>
+</html>

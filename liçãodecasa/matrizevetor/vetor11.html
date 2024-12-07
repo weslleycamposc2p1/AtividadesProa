@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vetor 11</title>
+</head>
+<body>
+    
+<script>
+
+let lista = [];
+        let positivo = 0;
+        let negativo = 0;
+
+        for (let n = 0; n < 10; n++) {
+            const numero = parseInt(prompt("Digite um número: "), 10);
+            lista.push(numero);
+        }
+
+        lista.forEach((n2) => {
+            if (n2 > 0) {
+                positivo += n2;
+            } else {
+                negativo += n2;
+            }
+        });
+
+        document.write("<h3>Resultado:</h3>");
+        document.write(positivo + " é a soma dos números positivos.<br>");
+        document.write(negativo + " é a soma dos números negativos.<br>");
+
+
+</script>
+
+
+</body>
+</html>
