@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 8</title>
+</head>
+<body>
+    
+    <script>
+        
+        let matriz = [];
+        let n;
+        let menor = Infinity; 
+        document.write("Digite os elementos da matriz 3x3:<br>");
+
+        for (let i = 0; i < 3; i++) {
+            matriz[i] = [];
+            for (let p = 0; p < 3; p++) {
+                n = prompt(`Digite um número para a posição [${i}][${p}]`);
+                matriz[i][p] = parseInt(n);
+                
+                if (matriz[i][p] < menor) {
+                    menor = matriz[i][p];
+                }
+            }
+        }
+
+        document.write("O menor valor presente na matriz é: " + menor);
+
+    </script>
+
+</body>
+</html>

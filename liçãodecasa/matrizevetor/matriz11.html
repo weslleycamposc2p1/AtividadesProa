@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 11</title>
+</head>
+<body>
+    
+    <script>
+        
+        let matriz1 = [];
+        let matriz2 = [];
+        let n;
+        let igual = true;
+
+        document.write("Digite os elementos da primeira matriz 2x2:<br>");
+
+        for (let i = 0; i < 2; i++) {
+            matriz1[i] = [];
+            for (let j = 0; j < 2; j++) {
+                n = prompt(`Digite um número para a posição [${i}][${j}]`);
+                matriz1[i][j] = parseInt(n);
+            }
+        }
+
+        document.write("<br>Digite os elementos da segunda matriz 2x2:<br>");
+
+        for (let i = 0; i < 2; i++) {
+            matriz2[i] = [];
+            for (let j = 0; j < 2; j++) {
+                n = prompt(`Digite um número para a posição [${i}][${j}]`);
+                matriz2[i][j] = parseInt(n);
+            }
+        }
+
+        for (let i = 0; i < 2; i++) {
+            for (let j = 0; j < 2; j++) {
+                if (matriz1[i][j] !== matriz2[i][j]) {
+                    igual = false;
+                    break;
+                }
+            }
+            if (!igual) break;
+        }
+
+        if (igual) {
+            document.write("As matrizes são iguais.");
+        } else {
+            document.write("As matrizes não são iguais.");
+        }
+
+    </script>
+    
+</body>
+</html>

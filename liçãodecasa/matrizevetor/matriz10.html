@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 10</title>
+</head>
+<body>
+    
+    <script>
+        
+        let matriz = [];
+        let n;
+        let soma;
+
+        document.write("Digite os elementos da matriz 4x4:<br>");
+
+        for (let i = 0; i < 4; i++) {
+            matriz[i] = [];
+            for (let p = 0; p < 4; p++) {
+                n = prompt(`Digite um número para a posição [${i}][${p}]`);
+                matriz[i][p] = parseInt(n);
+            }
+        }
+
+        for (let p = 0; p < 4; p++) {
+            soma = 0;
+            for (let i = 0; i < 4; i++) {
+                soma += matriz[i][p];
+            }
+            document.write("Soma da coluna " + (p + 1) + ": " + soma + "<br>");
+        }
+
+    </script>
+
+</body>
+</html>

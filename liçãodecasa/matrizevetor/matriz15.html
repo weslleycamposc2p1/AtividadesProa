@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 15</title>
+</head>
+<body>
+    
+    <script>
+        
+        let matriz1 = [];
+        let matriz2 = [];
+        let resultado = [];
+        let n;
+
+        document.write("Digite os elementos da primeira matriz 2x2:<br>");
+
+        for (let i = 0; i < 2; i++) {
+            matriz1[i] = [];
+            for (let p = 0; p < 2; p++) {
+                n = prompt(`Digite um número para a posição [${i}][${p}]`);
+                matriz1[i][p] = parseInt(n);
+            }
+        }
+
+        document.write("<br>Digite os elementos da segunda matriz 2x2:<br>");
+
+        for (let i = 0; i < 2; i++) {
+            matriz2[i] = [];
+            for (let p = 0; p < 2; p++) {
+                n = prompt(`Digite um número para a posição [${i}][${p}]`);
+                matriz2[i][p] = parseInt(n);
+            }
+        }
+
+        for (let i = 0; i < 2; i++) {
+            resultado[i] = [];
+            for (let p = 0; p < 2; p++) {
+                resultado[i][p] = matriz1[i][p] - matriz2[i][p];
+            }
+        }
+
+        document.write("<br>Resultado da subtração das matrizes:<br>");
+        for (let i = 0; i < 2; i++) {
+            for (let p = 0; p < 2; p++) {
+                document.write(resultado[i][p] + " ");
+            }
+            document.write("<br>");
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 9</title>
+</head>
+<body>
+    
+    <script>
+
+        let matriz = [];
+        let n;
+        let simetrica = true;
+
+        document.write("Digite os elementos da matriz 3x3:<br>");
+
+        for (let i = 0; i < 3; i++) {
+            matriz[i] = [];
+            for (let p = 0; p < 3; p++) {
+                n = prompt(`Digite um número para a posição [${i}][${p}]`);
+                matriz[i][p] = parseInt(n);
+            }
+        }
+
+        for (let i = 0; i < 3; i++) {
+            for (let p = 0; p < 3; p++) {
+                if (matriz[i][p] !== matriz[p][i]) {
+                    simetrica = false;
+                    break;
+                }
+            }
+            if (!simetrica) break; 
+        }
+
+        if (simetrica) {
+            document.write("A matriz é simétrica.");
+        } else {
+            document.write("A matriz não é simétrica.");
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 6</title>
+</head>
+<body>
+    
+<script>
+
+  let matriz = [];
+        let soma = 0;
+        let resultado = 16;
+
+        document.write("Digite os elementos da matriz 4x4:<br>");
+
+        for (let i = 0; i < 4; i++) {
+            matriz[i] = [];
+            for (let p = 0; p < 4; p++) {
+                let n = prompt(`Digite um número para a posição [${i}][${p}]`);
+                matriz[i][p] = parseInt(n);
+                soma += matriz[i][p];
+            }
+        }
+
+        let media = soma / resultado;
+        document.write("A média dos elementos da matriz é: " + media);
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matriz 13</title>
+</head>
+<body>
+    
+    <script>
+        
+        let matriz = [];
+        let n;
+        let maior;
+
+        document.write("Digite os elementos da matriz 4x4:<br>");
+
+        for (let i = 0; i < 4; i++) {
+            matriz[i] = [];
+            for (let p = 0; p < 4; p++) {
+                n = prompt(`Digite um número para a posição [${i}][${p}]`);
+                matriz[i][p] = parseInt(n);
+            }
+        }
+
+        for (let i = 0; i < 4; i++) {
+            maior = matriz[i][0];
+            for (let p = 1; p < 4; p++) {
+                if (matriz[i][p] > maior) {
+                    maior = matriz[i][p];
+                }
+            }
+            document.write("Maior valor da linha " + (i + 1) + ": " + maior + "<br>");
+        }
+
+    </script>
+
+</body>
+</html>
